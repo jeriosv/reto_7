@@ -58,8 +58,8 @@ print("Los números pares ordenados de forma descendente: " + str(pares)) # Impr
 
 
 ```python
-poblacionA = 25000000   # Población inicial del país A en millones
-poblacionB = 18900000   # Población inicial del país B en millones
+poblacionA = 25000000   # Población inicial del país A
+poblacionB = 18900000   # Población inicial del país B
 tasaA = 0.02          # Tasa de crecimiento anual del país A
 tasaB = 0.03          # Tasa de crecimiento anual del país B
 year = 2022           # Año inicial
@@ -69,7 +69,7 @@ while poblacionB <= poblacionA:      # Mientras la población del país B sea me
     poblacionB *= ( 1 + tasaB )      # Se suma la cantidad de personas segun la tasa de crecimiento anual
     year += 1                        # Aumenta de 1 en 1 para evaluar el crecimiento anual
     
-print(f"La población del país B superará a la del país A en el año {year} con una poblacion " + str( poblacionB ) + " millones frente a una poblacion de " + str( poblacionA ) + " millones de el pais A") 
+print(f"La población del país B superará a la del país A en el año {year} con una poblacion " + str( poblacionB ) + " frente a una poblacion de " + str( poblacionA ) + " del pais A") 
 # Imprime el año en que la población de B supera a la de A
 ```
    
