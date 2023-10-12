@@ -67,9 +67,9 @@ year = 2022           # Año inicial
 while poblacionB <= poblacionA:      # Mientras la población del país B sea menor o igual que A
     poblacionA *= ( 1 + tasaA )      # Se suma la cantidad de personas segun la tasa de crecimiento anual
     poblacionB *= ( 1 + tasaB )      # Se suma la cantidad de personas segun la tasa de crecimiento anual
-    year += 1                        # Aumenta de 1 en 1 para evaluar el crecimiento anual
+    year += 1                        # Aumenta el año
     
-print(f"La población del país B superará a la del país A en el año {year} con una poblacion " + str( poblacionB ) + " frente a una poblacion de " + str( poblacionA ) + " del pais A") 
+print(f"La población del país B superará al país A en el año {year} con una población " + str( poblacionB ) + " Vs. una población de " + str( poblacionA ) + " del país A.") 
 # Imprime el año en que la población de B supera a la de A
 ```
    
@@ -103,7 +103,12 @@ print(f"El factorial de {n} es {factorial}")  # Imprimir el factorial de n
 
 
 ```python
-
+n = int(input("Ingrese un número de 2 a 50: ")) # Declarar e inicializar con el valor dado por el usuario
+i : int = 1          # Inicializar la variable i en 1
+while i <= n :       # Mientras i sea menor o igual n
+    if n%i == 0 :  # Si n es divisible por i su residuo es igual a 0
+        print(f"{i} es divisor de {n}")   # Imprimir i
+    i +=1          # Actualizar i en 1 más
 ```
    
 
