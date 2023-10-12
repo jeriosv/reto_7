@@ -45,17 +45,18 @@ print("Los números impares hasta 1000 son: " + str(impares)) # imprime la lista
 
 ```mermaid
 graph TD;
-   A[inicio] -->|Pedir al usuario n| C{Es n >= 2 ?};
-   C -->|Sí| E{Es n par ?};
-   E-->|No| F(n - = 1)
-   F-->C
-   C-->|No| K
+   A[inicio] -->|Inicializar variables| C{Es n <= 100?};
+   
+   C -->D(Números impares);
+   C -->E(Números pares);
+   D -->|Sí| H(Agregar a lista de impares);
+   H -->D;
    E-->|Sí| I(Agregar a lista de pares);
-   I-->L(n - = 2)
-   L-->C
+   I-->E;
    I-->J(Imprimir listas de pares e impares);
+   H-->J;
    J-->K[Fin];
-```   
+```    
 
 3. Imprimir los números pares en forma descendente hasta 2 que son menores o iguales a un número natural n ≥ 2 dado
 
