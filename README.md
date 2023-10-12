@@ -1,7 +1,6 @@
 # Reto No. 7: Bucles
-Desarrolle de manera individual la mayoría de ejercicios en clase. Para cada punto cree un programa individual asimismo cree un notebook con la solución a todos los problemas. 
-Al finalizar suba todo a un repo y subalo al canal reto_7 en slack, los tres primeros puntos deben incluir diagrama de flujo.
-
+Desarrolle de manera individual la mayoría de ejercicios en clase. Para cada punto cree un programa individual, asimismo cree un notebook con la solución a todos los problemas. 
+Los tres primeros puntos deben incluir diagrama de flujo.
 Nota: Todo el código de aquí en adelante debe ir debidamente documentado.
 
 1. Imprimir un listado con los números del 1 al 100 cada uno con su respectivo cuadrado
@@ -134,7 +133,7 @@ while i <= n :       # Mientras i sea menor o igual n
    
 
 
-8.Implementar el algoritmo que muestre los números primos del 1 al 100. Nota: use funciones
+8. Implementar el algoritmo que muestre los números primos del 1 al 100. Nota: use funciones.
 
 
 ```python
