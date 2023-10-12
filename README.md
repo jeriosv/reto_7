@@ -1,4 +1,4 @@
-# Reto No. 7:  Bucles 1
+# Reto No. 7:  Bucles 1, el señor "While"
 Desarrolle de manera individual la mayoría de ejercicios en clase. Para cada punto cree un programa individual, asimismo cree un notebook con la solución a todos los problemas. 
 Los tres primeros puntos deben incluir diagrama de flujo.
 Nota: Todo el código de aquí en adelante debe ir debidamente documentado.
@@ -74,6 +74,20 @@ while n >= 2:       # Mientras que n sea mayor o igual a 2
 print("Los números pares ordenados de forma descendente: " + str(pares)) # Imprime la lista pares en forma descendente hasta 2
 ```
    
+``mermaid
+graph TD;
+   A[inicio] -->|Pedir al usuario n| C{Es n >= 2 ?};
+   C -->|Sí| E{Es n par ?};
+   E-->|No| F(n - = 1)
+   F-->C
+   C-->|No| K
+   E-->|Sí| I(Agregar a lista de pares);
+   I-->L(n - = 2)
+   L-->C
+   I-->J(Imprimir listas de pares e impares);
+   J-->K[Fin];
+``` 
+
 
 
 4. En 2022 el país A tendrá una población de 25 millones de habitantes y el país B de 18.9 millones. Las tasas de crecimiento anual de la población serán de 2% y 3% respectivamente. Desarrollar un algoritmo para informar en que año la población del país B superará a la de A.
