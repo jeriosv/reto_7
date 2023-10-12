@@ -73,7 +73,7 @@ while n >= 2:       # Mientras que n sea mayor o igual a 2
 print("Los números pares ordenados de forma descendente: " + str(pares)) # Imprime la lista pares en forma descendente hasta 2
 ```
    
-``mermaid
+```mermaid
 graph TD;
    A[inicio] -->|Pedir al usuario n| C{Es n >= 2 ?};
    C -->|Sí| E{Es n par ?};
