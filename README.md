@@ -15,13 +15,13 @@ while (n <= 100) :    # mientras n sea menor o igual a 100
 ```
 
 ```mermaid
-graph TD;
-  A[inicio] --> B(n = 1);
-   B -->C{¿ Es n <= 100?};
-   C -->|Sí| F(Imprimir Número y su cuadrado);
-   H -->C;
-   F -->H(Aumentar n);
-   C -->|No| G[Fin];
+  graph TD;
+     A[inicio] --> B(n = 1);
+     B -->C{¿ Es n <= 100?};
+     C -->|Sí| F(Imprimir Número y su cuadrado);
+     H -->C;
+     F -->H(Aumentar n);
+     C -->|No| G[Fin];
 ```
    
 2. Imprimir un listado con los números impares desde 1 hasta 999 y seguidamente otro listado con los números pares desde 2 hasta 1000.
