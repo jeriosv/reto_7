@@ -16,7 +16,7 @@ while (n <= 100) :    # mientras n sea menor o igual a 100
 
 ```mermaid
 graph TD;
-   A[inicio] --> B(n = 1);
+  A[inicio] --> B(n = 1);
    B -->C{¿ Es n <= 100?};
    C -->|Sí| F(Imprimir Número y su cuadrado);
    H -->C;
